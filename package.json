@@ -1,0 +1,22 @@
+{
+  "devDependencies": {
+    "faker": "^5.1.0",
+    "serverless-dynamodb-local": "^0.2.24",
+    "serverless-offline": "^11.6.0"
+  },
+  "name": "cadastro-pacientes",
+  "version": "1.0.0",
+  "main": "handler.js",
+  "scripts": {
+    "test": "mocha",
+    "fixtures": "./bin/fixtures"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "aws-sdk": "^2.1265.0",
+    "uuid": "^9.0.0"
+  }
+}
